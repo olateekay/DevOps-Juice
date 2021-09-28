@@ -8,7 +8,10 @@ This documentation provides a step-by-step guide on how to achieve this seamless
 - Create a new repository on github
 - Clone the repo (actually, copy the url)
 - Within the folder of your project, initiate a    terminal and run,
-`git remote add origin <the copied repo's url>`
+
+  `git init`
+
+  `git remote add origin <the copied repo's url>`
 - Set your name and email in the git config by running these commands,
 
     `git config user.name "name"`
