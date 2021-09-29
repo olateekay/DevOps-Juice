@@ -1,4 +1,4 @@
-**### How to push files on your local computer to a remote repository e.g Github**
+**How to push files on your local computer to a remote repository e.g Github**
 
 
 So sometimes we get to start up projects from our local machines and somewhere halfway into it or at the end of the project we decide to push this project to a remote repository.
@@ -24,7 +24,7 @@ This documentation provides a step-by-step guide on how to achieve this seamless
   
   `git commit -m "commit message"`
 
-- Run `git pull origin master`
+- Run `git pull origin main`
 
 NB: if you have a 
 
@@ -32,10 +32,13 @@ NB: if you have a
 
 `git pull origin main --allow-unrelated-histories`
 
-- Then run `git push origin master`
+- Then run `git push origin main`
 
 
 
 
 
+**To configure the initial branch name to use in all
+of your new repositories, call: **
 
+`git config --global init.defaultBranch <name>`
