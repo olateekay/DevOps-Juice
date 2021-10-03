@@ -42,3 +42,27 @@ NB: if you have a
 of your new repositories, call: **
 
 `git config --global init.defaultBranch <name>`
+
+
+- free -h    to check memory space on an ubuntu machine
+- pwd         present working directory
+- :set number   to set line numbers in a file in vim
+- ls -ltr  <name of folder>         to list files in folder
+- ansible-playbook  <playbook.yml file> --syntax-check        to test ansible playbook
+
+**set python 3 as default ubuntu**  
+Open your .bashrc file nano ~/.bashrc. Type alias python=python3 on to a new line at the top of the file then save the file with ctrl+o and close the file with ctrl+x. Then, back at your command line type source ~/.bashrc. Now your alias should be permanent.
+
+
+
+**create mysql user**
+
+CREATE USER 'mysql-client'@'%' IDENTIFIED BY 'password754675';
+GRANT ALL PRIVILEGES ON * . * TO 'mysql-client'%';
+FLUSH PRIVILEGES;
+(the @ means the user can access all databases and the % means that the user can access all tables)
+
+
+**Jenkins on Vagrant**
+
+https://www.chrisjmendez.com/2017/01/08/installing-jenkins-using-virtualbox-and-vagrant/
