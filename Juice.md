@@ -43,7 +43,7 @@ of your new repositories, call: **
 
 `git config --global init.defaultBranch <name>`
 
-
+- printenv   to list enviromental variables
 - free -h    to check memory space on an ubuntu machine
 - pwd         present working directory
 - :set number   to set line numbers in a file in vim
@@ -66,3 +66,9 @@ FLUSH PRIVILEGES;
 **Jenkins on Vagrant**
 
 https://www.chrisjmendez.com/2017/01/08/installing-jenkins-using-virtualbox-and-vagrant/
+
+
+**How to set Python 3 as default om Mac**
+
+https://dev.to/malwarebo/how-to-set-python3-as-a-default-python-version-on-mac-4jjf
+
